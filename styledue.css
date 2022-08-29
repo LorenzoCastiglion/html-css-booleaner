@@ -23,6 +23,7 @@ img.logo{
     width: 15%;
     padding-top: 30px;
     margin-left: 0px;
+    text-align: left;
 }
 p{
     font-size: small;
@@ -77,6 +78,7 @@ tr.azur{
 
 footer{
     margin: 10px;
+    text-align: center;
 }
 p.footer{
     font-size: 15px;
