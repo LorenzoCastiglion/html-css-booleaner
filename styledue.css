@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+header{
+    background-image: url('./img/pattern.png');
+    background-color: rgb(78, 160, 255);
+    background-size: 20%;
+    height: 80px;
+    background-repeat: repeat;
+}
+
+main{
+    margin: 10px;
+}
+
+img.logo{
+    width: 15%;
+    padding-top: 30px;
+    margin-left: 0px;
+}
+p{
+    font-size: small;
+    color: grey;
+}
+.titolo{
+    color: grey;
+    font-size: x-small;
+}
+
+
+.autore{
+    color: deepskyblue;
+}
+
+.sottolineato{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+/* tavola */
+th{
+    color: white;
+    background-color: rgb(55, 169, 229);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    
+}
+
+.colonnauno{
+    width: 25%;
+}
+
+.colonnadue{
+    width: 25%;
+}
+
+.colonnatre{
+    width: 50%;
+}
+
+tr.azur{
+    background-color: rgb(177, 229, 242);
+}
+
+footer{
+    margin: 10px;
+}
+p.footer{
+    font-size: 15px;
+}
+
+.footerimageuno{
+    color: white;
+    background-image: url("./img/monitor.jpg");
+    width: 312px;
+    height: 208px;
+    background-size: cover;
+    background-position: center;
+}
+
+.footerimagedue{
+    color: white;
+    background-image: url("./img/graph.jpg");
+    width: 312px;
+    height: 208px;
+    background-size: cover;
+    background-position: center;
+}
