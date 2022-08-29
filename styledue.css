@@ -1,103 +1,111 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+   
+
 }
 
-header{
+header {
     background-image: url('./img/pattern.png');
     background-color: rgb(78, 160, 255);
-    background-size: 20%;
+    background-size: 15%;
     height: 80px;
     background-repeat: repeat;
 }
 
-main{
-    margin: 10px;
+img.logo {
+    width: 150px;
+    padding-top: 30px;
 }
 
-img.logo{
-    width: 15%;
-    padding-top: 30px;
-    margin-left: 0px;
-    text-align: left;
+main {
+    -left: 5%;
+    -right: 5%;
+    text-align: center;
+    background-color: blanchedalmond;
 }
-p{
+
+
+p {
     font-size: small;
     color: grey;
 }
-.titolo{
+
+.titolo {
     color: grey;
     font-size: x-small;
 }
 
 
-.autore{
+.autore {
     color: deepskyblue;
 }
 
-.sottolineato{
+.sottolineato {
     background-color: yellow;
 }
 
-ul{
+ul {
     padding-left: 20px;
 }
 
 /* tavola */
-th{
+th {
     color: white;
     background-color: rgb(55, 169, 229);
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
-    
+
 }
 
-.colonnauno{
+.colonnauno {
     width: 25%;
 }
 
-.colonnadue{
+.colonnadue {
     width: 25%;
 }
 
-.colonnatre{
+.colonnatre {
     width: 50%;
 }
 
-tr.azur{
+tr.azur {
     background-color: rgb(177, 229, 242);
 }
 
-footer{
-    margin: 10px;
-    text-align: center;
-}
-p.footer{
+
+
+p.footer {
     font-size: 15px;
 }
 
-.footerimageuno{
+footer{
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.footerimageuno {
     color: white;
     background-image: url("./img/monitor.jpg");
     width: 312px;
     height: 208px;
-    background-size: cover;
-    background-position: center;
+    margin: auto;
 }
 
-.footerimagedue{
+.footerimagedue {
     color: white;
+    border: 3px solid black;
     background-image: url("./img/graph.jpg");
     width: 312px;
     height: 208px;
-    background-size: cover;
-    background-position: center;
+    margin: auto;
 }
+
