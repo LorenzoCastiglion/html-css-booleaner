@@ -21,7 +21,10 @@ img.logo{
     padding-top: 30px;
     margin-left: 10px;
 }
-
+p{
+    font-size: small;
+    color: grey;
+}
 .titolo{
     color: grey;
     font-size: x-small;
@@ -32,3 +35,64 @@ img.logo{
     color: deepskyblue;
 }
 
+.sottolineato{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+/* tavola */
+th{
+    color: white;
+    background-color: rgb(55, 169, 229);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    
+}
+
+.colonnauno{
+    width: 25%;
+}
+
+.colonnadue{
+    width: 25%;
+}
+
+.colonnatre{
+    width: 50%;
+}
+
+tr.azur{
+    background-color: rgb(177, 229, 242);
+}
+
+footer{
+    margin: 10px;
+}
+p.footer{
+    font-size: 15px;
+}
+
+.footerimageuno{
+    color: white;
+    background-image: url("./img/monitor.jpg");
+    width: 312px;
+    height: 208px;
+    background-size: cover;
+    background-position: center;
+}
+
+.footerimagedue{
+    color: white;
+    background-image: url("./img/graph.jpg");
+    width: 312px;
+    height: 208px;
+    background-size: cover;
+    background-position: center;
+}
