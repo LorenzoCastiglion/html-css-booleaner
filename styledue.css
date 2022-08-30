@@ -9,20 +9,21 @@
 header {
     background-image: url('./img/pattern.png');
     background-color: rgb(78, 160, 255);
-    background-size: 15%;
+    background-size: 300px;
     height: 80px;
     background-repeat: repeat;
 }
 
 img.logo {
+    margin-left: 5%;
     width: 150px;
     padding-top: 30px;
 }
 
 main {
-    -left: 5%;
-    -right: 5%;
-    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
     background-color: blanchedalmond;
 }
 
@@ -102,7 +103,6 @@ footer{
 
 .footerimagedue {
     color: white;
-    border: 3px solid black;
     background-image: url("./img/graph.jpg");
     width: 312px;
     height: 208px;
